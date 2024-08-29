@@ -1,0 +1,54 @@
+/* common area st */
+/* =====btn===== */
+a{
+    text-decoration: none;
+}
+ .common-btn{
+    color: #FFFFFF;
+    padding: 26px 44px;
+    background-color: #E5745D;
+    font-family: "Jost", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    position: relative;
+ }
+ .common-btn::after{
+ top: 7px;
+ left: 5px;
+ width: 186px;
+ height: 65px;
+ border: 1px solid white;
+ position: absolute;
+ content: "";
+ }
+/* common area ext */
+
+
+.navbar{
+background-color: #FFFFFF;
+}
+.navbar-brand{
+color: rgb(254, 13, 13);
+
+
+}
+.navbar-brand a{
+text-decoration: none;
+}
+
+.navbar-nav{
+column-gap: 50px;
+
+}
+.nav-link{
+    font-family: "Jost", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    color: #00413D;
+    transition: 0.4s;
+}
+.nav-link:hover{
+  color: #E5745D;
+}
