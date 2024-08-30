@@ -1,39 +1,44 @@
 /* common area st */
-/* =====btn===== */
 a{
-    text-decoration: none;
+  text-decoration: none;
 }
+/* =====btn st===== */
  .common-btn{
+  display: inline-block;
     color: #FFFFFF;
-    padding: 26px 44px;
+    width: 186px;
+    height: 65px;
     background-color: #E5745D;
     font-family: "Jost", sans-serif;
     font-size: 18px;
+    line-height: 65px;
     font-weight: 500;
+    text-align: center;
     position: relative;
  }
  .common-btn::after{
- top: 7px;
- left: 5px;
- width: 186px;
- height: 65px;
+ top: 6px;
+ left: 6px;
+ width: 174px;
+ height: 53px;
  border: 1px solid white;
  position: absolute;
  content: "";
  }
 /* common area ext */
 
-
+/* header area st */
 .navbar{
 background-color: #FFFFFF;
 }
 .navbar-brand{
 color: rgb(254, 13, 13);
-
+padding: 25px 0;
 
 }
 .navbar-brand a{
 text-decoration: none;
+
 }
 
 .navbar-nav{
@@ -52,3 +57,42 @@ column-gap: 50px;
 .nav-link:hover{
   color: #E5745D;
 }
+/* header area exit */
+/* banner-area st*/
+.banner-area{
+  width: 100%;
+  height: 700px;
+  background-color: #00413D;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+.banner-area h1{
+  color: #FFFFFF;
+  width: 834px;
+  height: 220px;
+  font-size: 100px;
+  font-weight: 700;
+  font-family: "Vollkorn", serif;
+
+}
+.banner-area h1 span{
+  display: inline-block;
+  color: #FFFFFF;
+
+
+}
+.banner-area p{
+  color: #cdc3c3;
+  font-size: 17px;
+  font-weight: 400;
+  font-family: "Jost", sans-serif;
+  padding: 29px 0px;
+
+}
+.banner-area p span{
+ color: #FFFFFF;
+font-size: 20px;
+
+}
+/* banner-area exit*/
